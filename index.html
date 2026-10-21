@@ -160,11 +160,23 @@
       margin-top: 36px;
     }
 
-    .photo-card {
-      background: #fffaf2;
-      padding: 12px 12px 22px;
-      box-shadow: 0 5px 18px #38251a12;
-    }
+.photo-card {
+  position: relative;
+  background: #FFFFFF;
+  padding: 12px 12px 22px;
+  box-shadow: 0 5px 18px #192D4A12;
+}
+
+.photo-card::after {
+  content: "♡";
+  position: absolute;
+  right: 10px;
+  bottom: 3px;
+  color: #9AB7A5;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  line-height: 1;
+}
 
     .memory-photo {
       width: 100%;
@@ -195,6 +207,7 @@
   font-style: normal;
   line-height: 1.6;
   margin: 16px 4px 0;
+  text-align: center;
 }
     .music-card {
       background: var(--dark);
@@ -615,8 +628,14 @@ Alay cik aku nggae tulisan sok2an, tapi for ayang yaudahlah tida apa-apa.
 </div>
 
       <p style="margin-top:36px">
-        Happy 30th birthday, my baby. ♡
-        I love you to the pluto and back!
+                 <p>
+  Happy 30th birthday, my baby. ♡
+</p>
+
+                 <p>
+  I love you to the pluto and back!
+</p>
+        
       </p>
     </footer>
 
