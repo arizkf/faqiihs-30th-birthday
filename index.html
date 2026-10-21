@@ -281,6 +281,50 @@
         transition: none !important;
       }
     }
+    
+/* THE NEXT CHAPTER POLAROID GALLERY */
+.next-chapter-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 40px auto;
+  max-width: 900px;
+  align-items: start;
+}
+
+.next-chapter-polaroid {
+  background: #fffaf2;
+  padding: 8px 8px 22px;
+  box-shadow: 0 5px 18px #38251a18;
+  transform: rotate(-1deg);
+  transition: transform 0.2s ease;
+}
+
+.next-chapter-polaroid:nth-child(even) {
+  transform: rotate(1.2deg);
+}
+
+.next-chapter-polaroid:hover {
+  transform: rotate(0deg) translateY(-3px);
+}
+
+.next-chapter-polaroid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .next-chapter-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .next-chapter-polaroid {
+    padding: 5px 5px 16px;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -469,6 +513,40 @@ Me, your baby gurllllllll
         To more memories, more laughter,
         and more little moments with you.
       </p>
+      
+<div class="next-chapter-gallery">
+  <div class="next-chapter-polaroid"><img src="next-chapter/1.jpg" alt="Memory 1" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/2.jpg" alt="Memory 2" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/3.jpg" alt="Memory 3" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/4.jpg" alt="Memory 4" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/5.jpg" alt="Memory 5" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/6.jpg" alt="Memory 6" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/7.jpg" alt="Memory 7" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/8.jpg" alt="Memory 8" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/9.jpg" alt="Memory 9" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/10.jpg" alt="Memory 10" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/11.jpg" alt="Memory 11" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/12.jpg" alt="Memory 12" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/13.jpg" alt="Memory 13" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/14.jpg" alt="Memory 14" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/15.jpg" alt="Memory 15" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/16.jpg" alt="Memory 16" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/17.jpg" alt="Memory 17" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/18.jpg" alt="Memory 18" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/19.jpg" alt="Memory 19" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/20.jpg" alt="Memory 20" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/21.jpg" alt="Memory 21" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/22.jpg" alt="Memory 22" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/23.jpg" alt="Memory 23" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/24.jpg" alt="Memory 24" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/25.jpg" alt="Memory 25" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/26.jpg" alt="Memory 26" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/27.jpg" alt="Memory 27" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/28.jpg" alt="Memory 28" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/29.jpg" alt="Memory 29" loading="lazy"></div>
+  <div class="next-chapter-polaroid"><img src="next-chapter/30.jpg" alt="Memory 30" loading="lazy"></div>
+</div>
+
       <p style="margin-top:36px">
         Happy 30th birthday, my love. ♡
       </p>
